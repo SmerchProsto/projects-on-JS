@@ -26,13 +26,6 @@ function getDistanceHint (event, distance, attemps) {
 	}
 };
 
-function checkAttemps (attemps) {
-	if (attemps == 0) {
-		alert("Вы проиграли, лопата сломалась!");
-		return;
-	}
-};
-
 var width = 400;
 var height = 400;
 var clicks = 0;
@@ -41,7 +34,7 @@ var attemps = 40;
 var target = {
 	x: getRandomNumber(width),
 	y: getRandomNumber(height)
-}
+};
 
 
 $("#map").click(function (event) {
