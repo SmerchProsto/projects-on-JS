@@ -55,6 +55,6 @@ $("#map").click(function (event) {
 			alert("Клад найден! Сделано кликов: " + clicks + ". Координаты клада: " + event.offsetX +"px" + " " + event.offsetY + "px");
 		}
 	}	else {
-
+		alert("Вы проиграли, лопата сломалась!");
 	}	
 });
